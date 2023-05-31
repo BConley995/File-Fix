@@ -1,23 +1,28 @@
-PowerShell Script for Configuration Maintenance
-This repository contains a PowerShell script that is used for maintaining configuration files on a Windows computer.
+# PowerShell Script for Configuration Maintenance
 
-Functionality
-The script performs checks on several configuration files. It ensures that these files contain certain expected values. If these values are missing, the script copies predefined configuration files from a directory 
-C:\Windows\BCD\Fix\. This is to ensure that the system or application works as expected with the correct configurations.
+This repository hosts a PowerShell script designed for the upkeep of configuration files on a Windows system.
 
-The script is specifically tailored to work with a particular application that stores its configuration files in the C:\Program Files*\jDummy\I*\Config\ and C:\WebA\ directories.
+## Functionality
 
-How to Run
-Clone the repository to your local machine.
-Open a PowerShell window.
-Navigate to the directory containing the script.
-Run the script using the command .\script_name.ps1, replacing script_name.ps1 with the actual script name.
+The script carries out assessments on a range of configuration files, ensuring these files encompass certain expected values. If these necessary values are not present, the script copies predetermined configuration files from the directory `C:\Windows\BCD\Fix\`. This ensures the system or application operates as intended with the correct configurations.
 
-Logging
-The script generates logs that are stored in C:\Windows\BCD\Fix\Logs\. It logs the start time, end time, and any discrepancies it finds in the configuration files.
+The script is specifically designed to work with a particular application that retains its configuration files in `C:\Program Files*\jDummy\I*\Config\` and `C:\WebA\` directories.
 
-License
+## How to Run
+
+1. Clone the repository to your local machine.
+2. Open a PowerShell window.
+3. Navigate to the directory containing the script.
+4. Execute the script using the command `.\script_name.ps1`, replacing `script_name.ps1` with the actual script name.
+
+## Logging
+
+The script generates logs that are stored in `C:\Windows\BCD\Fix\Logs\`. It logs the start time, end time, and any discrepancies found within the configuration files.
+
+## License
+
 This project is licensed under the terms of the MIT license.
 
-Contribution
+## Contribution
+
 Contributions are welcome! Please feel free to submit a Pull Request.
